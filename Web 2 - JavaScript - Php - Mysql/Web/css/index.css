@@ -1,0 +1,236 @@
+/*CSS General*/
+:root{
+    --shadow-black-100: 0 5px 15px rgba(0,0,0,0.2);
+    --color-blue: #17667f;
+    --color-dark: #3F496F;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-yellow: #fed136;
+}
+
+/* Estilos para la sección de bienvenida */
+#bienvenida {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bg-masthead.jpg);
+}
+
+#bienvenida h1 {
+    color: var(--color-black);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#bienvenida p {
+    color: var(--color-blue);
+    margin-bottom: 30px;
+}
+
+#bienvenida a {
+    color: var(--color-white);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/*----------------------------------------------------------*/
+
+
+/* Estilos para la sección de servicios */
+#servicios { 
+    min-height: 100vh;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+/*Tarjetas de Servicios*/
+.servicio .card{
+    box-shadow: var(--shadow-black-100);
+    padding: 15px 15px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.servicio .card:hover{
+    background-color: var(--color-yellow);
+}
+/*Iconos de Servicios*/
+.servicio .card i{
+    text-align: center;
+    font-size: 40px;
+    color: var(--color-blue);
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+.servicio .card:hover i{
+    color: var(--color-white);
+    font-size: 45px;
+}
+/*Título de Servicios*/
+.servicio h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-black);
+    margin: 0 0 10px;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+.servicio:hover h3{
+    color: var(--color-blue);
+}
+/*Texto de Servicios*/
+.servicio p{
+    font-size: 16px;
+    color: var(--color-blue);
+    margin: 0;
+    line-height: 26px;
+    transition: all 0.3s ease;
+}
+.servicio:hover p{
+    color: var(--color-white);
+}
+
+/*----------------------------------------------------------*/
+
+
+/* Estilos para la sección de especialidades */
+#especialidades{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    background-color: var(--color-white);
+}
+
+#especialidades img{
+    background-image: url(../img/fondo_azul.jpg);
+}
+
+#especialidades h2{
+    color: var(--color-black);
+}
+/*Título de Especialidades*/
+#especialidades h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-black);
+    margin: 0 0 10px;
+    text-transform: capitalize;
+}
+.progress-bar{
+    background-color: var(--color-blue);
+    width: 40px;
+}
+/*Texto de Especialidades*/
+#especialidades p{
+    font-size: 16px;
+    color: var(--color-blue);
+    margin: 0;
+    line-height: 26px;
+}
+
+/*----------------------------------------------------------*/
+
+
+/* Estilos para la sección de testimonios */
+#testimonios{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+#testimonios .card-footer{
+    color: var(--color-black);
+    background-color: var(--color-yellow);
+}
+
+/*----------------------------------------------------------*/
+
+
+/* Estilos para la sección de contacto*/
+#contacto{
+    background-color: var(--color-white);
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem
+}
+#contacto h2{
+    margin-top: 20px;
+    color: var(--color-black);
+}
+.contacto p{
+    font-size: 16px;
+    color: var(--color-blue);
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+/*Tarjetas de Contacto*/
+.contacto .card{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-yellow);
+    box-shadow: var(--shadow-black-100);
+    border-radius: 10px;
+    text-align: center;
+}
+.flip-card {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    perspective: 1000px;
+}
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.flip-card-front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flip-card-back {
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacto .card i{
+    text-align: center;
+    font-size: 20px;
+    color: var(--color-blue);
+}
+.contacto .card li{
+    color: var(--color-blue);
+}
+/*Título de Contacto*/
+.contacto h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-black);
+    margin: 0 0 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.contacto .card p{
+    font-size: 16px;
+    color: var(--color-blue);
+    margin-bottom: 10px;
+    line-height: 26px;
+    transition: all 0.3s ease;
+}
+
+
+/*-----------------------------------------------------------*/
