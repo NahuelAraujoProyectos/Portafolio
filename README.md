@@ -5,7 +5,7 @@ así como también Bootstrap y Jquery
 
 # Autor
 ## Araujo Nahuel
-* [LinkedIn] ()
+* [LinkedIn] (https://www.linkedin.com/in/nahuel-araujo)
 
 # Contacto
 nahuelaraujo1991@gmail.com
