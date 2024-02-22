@@ -1,0 +1,76 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+/*CSS General*/
+:root{
+    --shadow-black-100: 0 5px 15px rgba(0,0,0,0.2);
+    --color-blue: #17667f;
+    --color-dark: #3F496F;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-yellow: #fed136;
+}
+
+body{
+    font-family: "Kaushan Script", cursive;
+    font-size: 16px;
+    font-weight: normal;
+    overflow-x: hidden;
+    margin-top: 50px;
+    background-image: url(../img/fondo_azul.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*Enlaces*/
+a {
+    color: var(--color-blue);
+}
+a:hover {
+    color: var(--color-white);
+}
+
+/*Botones*/
+.btn-primary {
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    border-color: #166077; 
+}
+.btn-xl {
+    font-size: 18px;
+    padding: 20px 40px;
+}
+  
+/*Selección*/
+::selection {
+    color: var(--color-white);
+    background: var(--color-blue);
+    text-shadow: none;
+}
+
+/*Título de Sección*/
+#titulo_seccion{
+    margin: 20px 0px;
+    padding: 20px 0px;
+    color: var(--color-blue);
+    background-image: url(../img/bg-masthead.jpg);
+    border-top: 2px solid var(--color-yellow);
+    border-bottom: 2px solid var(--color-yellow);
+}
+#titulo_seccion p{
+    color: var(--color-black);
+}
+
+
+/* Estilos de la Barra de Navegación*/
+.enlace_activo{
+    color: var(--color-yellow);
+}

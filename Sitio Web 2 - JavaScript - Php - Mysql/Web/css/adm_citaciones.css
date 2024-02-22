@@ -1,0 +1,28 @@
+/*CSS General*/
+:root{
+    --shadow-black-100: 0 5px 15px rgba(0,0,0,0.2);
+    --color-blue: #17667f;
+    --color-dark: #3F496F;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-yellow: #fed136;
+}
+
+/*Sección Citas*/
+#ver_citas {
+    max-width: 100%;
+}
+
+.contenedor_tabla{
+    overflow-x: auto;
+    max-width: 100;
+}
+
+table, th, td{
+    border: 1px solid var(--color-black);
+}
+
+#contenido_citas{
+    margin: 30px 0px;
+    min-height: 60vh;
+}

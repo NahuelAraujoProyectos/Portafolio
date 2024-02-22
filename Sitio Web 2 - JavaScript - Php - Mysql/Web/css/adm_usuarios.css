@@ -1,0 +1,32 @@
+/*CSS General*/
+:root{
+    --shadow-black-100: 0 5px 15px rgba(0,0,0,0.2);
+    --color-blue: #17667f;
+    --color-dark: #3F496F;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-yellow: #fed136;
+}
+
+/*Sección Login*/
+#contenido_usuarios{
+    margin: 30px 0px;
+    min-height: 60vh;
+}
+#noticias .card{
+    box-shadow: var(--shadow-black-100);
+    padding: 15px 15px;
+    border-radius: 10px;
+    min-width: 250px;
+    width: 100%;
+}
+
+/*Botones de Opción*/
+#usuarios_opciones .btn, #div_opciones .btn{
+    margin: 5px;
+}
+
+/*Formulario de datos personales*/
+#info_usuario{
+    height: 100%;
+}

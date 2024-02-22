@@ -1,0 +1,36 @@
+/*CSS General*/
+:root{
+    --shadow-black-100: 0 5px 15px rgba(0,0,0,0.2);
+    --color-blue: #17667f;
+    --color-dark: #3F496F;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-yellow: #fed136;
+}
+
+/*Sección Perfil*/
+#contenido_perfil{
+    margin: 30px 0px;
+    min-height: 60vh;
+}
+
+h3{
+    color: var(--color-blue);
+}
+
+#div_opciones{
+    background-color: var(--color-white);
+}
+.card-body{
+    background-color: var(--color-white);
+}
+
+/*Botones de Opción*/
+#div_opciones .btn{
+    margin: 5px;
+}
+
+/*Formulario de datos personales*/
+#info_usuario{
+    height: 100%;
+}
