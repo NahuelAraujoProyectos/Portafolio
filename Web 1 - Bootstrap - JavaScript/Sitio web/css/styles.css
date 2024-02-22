@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h3{
+    font-size: 20px;
+}
+p{
+    margin: 0px;
+}
+
+
+
+/*Colores de botones*/
+.boton-color-1{
+    color: black;
+    border-color: gray;
+    background-color: blanchedalmond;
+    box-shadow:  0px 10px 10px rgba(0, 0, 0, 0.5);     
+    transition: 0.5s;
+}
+.boton-color-1:hover{
+    background-color: gray;
+    border-color: blanchedalmond;
+}
+
+
+/*Estilos de Navbar*/
+.navbar{
+    background-color: blanchedalmond;
+    display: flex;
+}
+.active{
+    border-bottom: 3px solid #0dcaf0;
+}
+
+
+/*Estilos de secciones*/
+#seccion1,
+#seccion2,
+#seccion3,
+#seccion4{
+    margin-bottom: 140px;
+    margin-top: 50px;
+}
+
+
+
+/*Estilos Footer*/
+footer{
+    margin-top: 30px;
+    color: white;
+    background-color: grey;
+}
+.redes_sociales,
+.aviso_legal,
+.empresa{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconos-redes{
+    width: 30px;
+    margin: 10px;
+}

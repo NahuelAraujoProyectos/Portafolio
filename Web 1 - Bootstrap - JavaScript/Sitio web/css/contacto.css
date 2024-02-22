@@ -1,0 +1,29 @@
+/*Estilos - Contacto*/
+#seccion1-contacto .margen{
+    background-color: blanchedalmond;
+    box-shadow:  0px 10px 10px rgba(0, 0, 0, 0.5);     
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+#seccion1-contacto .datos-margen{
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#seccion1-contacto .imagen-margen{
+    width: 100%;
+}
+#seccion1-contacto .imagen-margen img{
+    max-height: 300px;
+    border-radius: 10px;
+}
+
+
+#map{
+    border-radius: 20px;
+}
