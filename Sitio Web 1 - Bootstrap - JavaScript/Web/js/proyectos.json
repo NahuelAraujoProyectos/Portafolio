@@ -1,0 +1,40 @@
+{
+    "cards":[
+        {
+            "titulo":"Madrid",
+            "texto": "Barrio de Salamanca.",
+            "imagen": "trabajo-01.jpg",
+            "categoria": "Comercial"
+        },
+        {
+            "titulo":"Valencia",
+            "texto": "Barrio de Salamanca.",
+            "imagen": "trabajo-02.jpg",
+            "categoria": "Residencial"
+        },
+        {
+            "titulo":"Sevilla",
+            "texto": "Barrio de Salamanca.",
+            "imagen": "trabajo-03.jpg",
+            "categoria": "Otros"
+        },
+        {
+            "titulo":"Barcelona",
+            "texto": "Barrio de Salamanca.",
+            "imagen": "trabajo-04.jpg",
+            "categoria": "Comercial"
+        },
+        {
+            "titulo":"Valencia",
+            "texto": "Barrio de Salamanca.",
+            "imagen": "trabajo-05.jpg",
+            "categoria": "Residencial"
+        },
+        {
+            "titulo":"Valencia",
+            "texto": "Barrio de Salamanca.",
+            "imagen": "trabajo-06.jpg",
+            "categoria": "Residencial"
+        }
+    ]
+}
