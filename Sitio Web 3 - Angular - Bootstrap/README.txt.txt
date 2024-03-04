@@ -1,4 +1,4 @@
-Proyecto: CRUD con Angular
+Proyecto: CRUD con Angular 17
 
 Sitio web desarrollado con:
 *Bootstrap
